@@ -1,0 +1,30 @@
+# Data files
+*.csv
+data/
+
+# Tableau
+*.twb
+*.twbx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.env
+.venv
+env/
+venv/
