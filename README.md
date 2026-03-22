@@ -6,7 +6,7 @@ End-to-end data science pipeline for real-time fraud risk scoring, built in a se
 
 ## Project Overview
 
-This project simulates the full lifecycle of a production fraud detection system — from raw transaction data to a business-ready monitoring dashboard. The workflow mirrors what an analytics team at a financial crimes or security intelligence firm would deliver: interpretable signals, model transparency via SHAP, and threshold decisions grounded in dollar-value trade-offs rather than pure accuracy metrics.
+This project simulates the full lifecycle of a production fraud detection system - from raw transaction data to a business-ready monitoring dashboard. The workflow mirrors what an analytics team at a financial crimes or security intelligence firm would deliver: interpretable signals, model transparency via SHAP, and threshold decisions grounded in dollar-value trade-offs rather than pure accuracy metrics.
 
 ---
 
@@ -17,7 +17,7 @@ This project simulates the full lifecycle of a production fraud detection system
 | Transactions | 299,695 |
 | Features | 17 columns |
 | Fraud rate | 2.21% (class imbalance handled with `scale_pos_weight=44`) |
-| Source | [E-Commerce Fraud Detection Dataset](https://www.kaggle.com/) — Kaggle, CC0 Public Domain |
+| Source | [E-Commerce Fraud Detection Dataset](https://www.kaggle.com/) - Kaggle, CC0 Public Domain |
 
 ---
 
@@ -109,10 +109,10 @@ Threshold selected via cost-benefit analysis rather than F1 maximization:
 
 4-panel Tableau control monitoring report built on `outputs/scored_transactions.csv`:
 
-1. **Daily fraud rate trend** — time-series view of flagged transaction rates
-2. **Risk tier breakdown** — Low / Medium / High / Critical segment volumes
-3. **Fraud probability distribution** — histogram of model score output
-4. **High-risk transactions table** — drilldown on flagged cases with key features
+1. **Daily fraud rate trend** - time-series view of flagged transaction rates
+2. **Risk tier breakdown** - Low / Medium / High / Critical segment volumes
+3. **Fraud probability distribution** - histogram of model score output
+4. **High-risk transactions table** - drilldown on flagged cases with key features
 
 ---
 
