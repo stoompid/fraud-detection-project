@@ -2,10 +2,6 @@
 *.csv
 data/
 
-# Tableau
-*.twb
-*.twbx
-
 # Python
 __pycache__/
 *.py[cod]
